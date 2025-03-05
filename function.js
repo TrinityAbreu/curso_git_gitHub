@@ -3,3 +3,9 @@ function idadeNome(nome, idade) {
 };
 
 idadeNome("Samuel", "25");
+
+function nomeSobrenome(nome, sobrenome) {
+    return nome + sobrenome
+}
+
+console.log(nomeSobrenome("Samuel", "Trindade"))
